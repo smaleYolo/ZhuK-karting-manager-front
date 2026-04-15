@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "id": "58a30d6a-c6bd-4b93-9d1c-5b6f65f7e1c2",
+      "externalRaceId": "3be23894-4b62-4c42-9627-836180aa18d0",
+      "externalNumericRaceId": 33,
+      "name": "VKS FINAL A",
+      "displayName": "VKS FINAL A · 26.03.2026 23:36",
+      "championshipCode": "VKS",
+      "type": "race",
+      "effectiveRaceStatus": "race",
+      "status": "finished",
+      "startedAt": "2026-03-26T23:36:28+03:00",
+      "endedAt": "2026-03-27T00:30:57.8754657+03:00",
+      "track": {
+        "externalId": "vkartingsev",
+        "name": "V-Karting Север",
+        "trackRacemannLink": "https://v-karting-sev.racemann.com",
+        "configuration": {
+          "id": "vkartingsev_main",
+          "name": "Основная"
+        }
+      },
+      "source": {
+        "provider": "racemann",
+        "completeness": "full"
+      },
+      "format": {
+        "limitType": "time",
+        "scheduledTimeMs": 1200000,
+        "scheduledLaps": null,
+        "actualLapsComplete": 51
+      },
+      "participants": {
+        "totalCount": 10,
+        "mappedCount": 0,
+        "unmappedCount": 10,
+        "mappingStatus": "unmapped"
+      }
+    },
+    {
+      "id": "0d8a2f66-b8c0-45cf-aef7-5a7f9c1f51b1",
+      "externalRaceId": "49d6710d-4710-4e70-8d11-2abfd6e84f77",
+      "externalNumericRaceId": 34,
+      "name": "VKS Q",
+      "displayName": "VKS Q · 26.03.2026 22:55",
+      "championshipCode": "VKS",
+      "type": "qualification",
+      "effectiveRaceStatus": "race",
+      "status": "finished",
+      "startedAt": "2026-03-26T22:55:00+03:00",
+      "endedAt": "2026-03-26T23:20:12+03:00",
+      "track": {
+        "externalId": "vkartingsev",
+        "name": "V-Karting Север",
+        "trackRacemannLink": "https://v-karting-sev.racemann.com",
+        "configuration": {
+          "id": "vkartingsev_main",
+          "name": "Основная"
+        }
+      },
+      "source": {
+        "provider": "racemann",
+        "completeness": "full"
+      },
+      "format": {
+        "limitType": "time",
+        "scheduledTimeMs": 900000,
+        "scheduledLaps": null,
+        "actualLapsComplete": 38
+      },
+      "participants": {
+        "totalCount": 10,
+        "mappedCount": 4,
+        "unmappedCount": 6,
+        "mappingStatus": "partial"
+      }
+    },
+    {
+      "id": "6d32143f-8b18-4054-b238-9a1d9d89ea17",
+      "externalRaceId": null,
+      "externalNumericRaceId": null,
+      "name": "Тренировка группы 1",
+      "displayName": "Тренировка группы 1 · 27.03.2026 18:10",
+      "championshipCode": null,
+      "type": "practice",
+      "effectiveRaceStatus": "training",
+      "status": "draft",
+      "startedAt": "2026-03-27T18:10:00+03:00",
+      "endedAt": null,
+      "track": {
+        "externalId": "lemans_msk",
+        "name": "LeMans Москва",
+        "trackRacemannLink": null,
+        "configuration": {
+          "id": null,
+          "name": null
+        }
+      },
+      "source": {
+        "provider": "manual",
+        "completeness": "manual_only"
+      },
+      "format": {
+        "limitType": "time",
+        "scheduledTimeMs": 600000,
+        "scheduledLaps": null,
+        "actualLapsComplete": null
+      },
+      "participants": {
+        "totalCount": 6,
+        "mappedCount": 6,
+        "unmappedCount": 0,
+        "mappingStatus": "complete"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pageSize": 20,
+    "totalItems": 3,
+    "totalPages": 1
+  },
+  "sort": {
+    "field": "startedAt",
+    "direction": "desc"
+  }
+}

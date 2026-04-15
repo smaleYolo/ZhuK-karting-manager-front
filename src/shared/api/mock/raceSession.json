@@ -1,0 +1,910 @@
+{
+  "session": {
+    "id": "58a30d6a-c6bd-4b93-9d1c-5b6f65f7e1c2",
+    "source": {
+      "provider": "racemann",
+      "completeness": "full",
+      "inputs": {
+        "raceStartDataApi": true,
+        "resultExport": true,
+        "lapByLapExport": true,
+        "manualAttachments": false
+      }
+    },
+    "externalRaceId": "3be23894-4b62-4c42-9627-836180aa18d0",
+    "externalNumericRaceId": 33,
+    "name": "VKS FINAL A",
+    "displayName": "VKS FINAL A · 26.03.2026 23:36",
+    "championshipCode": "VKS",
+    "type": "race",
+    "effectiveRaceStatus": "race",
+    "status": "finished",
+    "startedAt": "2026-03-26T23:36:28+03:00",
+    "endedAt": "2026-03-27T00:30:57.8754657+03:00",
+    "track": {
+      "externalId": "vkartingsev",
+      "name": null,
+      "trackRacemannLink": "https://v-karting-sev.racemann.com",
+      "configuration": {
+        "id": null,
+        "name": null
+      }
+    },
+    "format": {
+      "limitType": "time",
+      "scheduledTimeMs": 1200000,
+      "scheduledLaps": null,
+      "actualLapsComplete": 51
+    }
+  },
+  "overview": {
+    "participantsCount": 10,
+    "mappedParticipantsCount": 0,
+    "unmappedParticipantsCount": 10,
+    "winner": {
+      "participantId": "b0d3f9a6-17a4-4e6a-9fd1-3c9bde6b3f04",
+      "regNumber": "4",
+      "displayName": "Янченко Владимир"
+    },
+    "bestLap": {
+      "participantId": "1bcebca4-ec82-4cd0-a1e5-24d80ad4ab12",
+      "regNumber": "12",
+      "displayName": "Румянцев Алексей",
+      "valueMs": 22350
+    },
+    "bestCleanAvgLap": {
+      "participantId": "1bcebca4-ec82-4cd0-a1e5-24d80ad4ab12",
+      "regNumber": "12",
+      "displayName": "Румянцев Алексей",
+      "valueMs": 22701
+    },
+    "events": {
+      "warningCount": 10,
+      "penaltyCount": 6,
+      "infoCount": 1
+    },
+    "laps": {
+      "warningLapCount": 42,
+      "pitLapCount": 18,
+      "longLapCount": 2
+    }
+  },
+  "table": [
+    {
+      "participantId": "b0d3f9a6-17a4-4e6a-9fd1-3c9bde6b3f04",
+      "identity": {
+        "regNumber": "4",
+        "displayName": {
+          "value": "Янченко Владимир",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 1,
+        "officialLapsCount": 49,
+        "realLapsCount": 48,
+        "officialTotalTimeMs": 1206820,
+        "officialRealTotalTimeMs": 1206820,
+        "timePenaltyMs": 0,
+        "virtualLapDelta": 1,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 0
+        },
+        "gapToLeader": {
+          "laps": 0,
+          "ms": 0
+        }
+      },
+      "karts": {
+        "stintsCount": 2,
+        "kartNumbers": [
+          "n/a",
+          "1"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22389,
+        "avgLapMs": 22725,
+        "best3AvgLapMs": 22437,
+        "medianLapMs": 22690,
+        "cleanAvgLapMs": 22719,
+        "gapToBestLapMs": 39
+      },
+      "consistency": {
+        "validLapsCount": 40,
+        "warningLapCount": 6,
+        "value": 99.15
+      },
+      "pit": {
+        "pitCount": 1
+      },
+      "incidents": {
+        "warningEventsCount": 2,
+        "penaltyEventsCount": 0
+      },
+      "pilotScore": {
+        "total": 93.0,
+        "grade": "A",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 100.0,
+          "paceScore": 94.4,
+          "consistencyScore": 99.2,
+          "disciplineScore": 74.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "podium_finish",
+            "front_running_pace",
+            "warnings_present",
+            "many_warning_laps"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "0bb4c0ef-bdc1-4f46-bf02-6c2ce22d5e03",
+      "identity": {
+        "regNumber": "3",
+        "displayName": {
+          "value": "Аниканов Сергей",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 2,
+        "officialLapsCount": 49,
+        "realLapsCount": 49,
+        "officialTotalTimeMs": 1213053,
+        "officialRealTotalTimeMs": 1213053,
+        "timePenaltyMs": 0,
+        "virtualLapDelta": 0,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 6233
+        },
+        "gapToLeader": {
+          "laps": 0,
+          "ms": 6233
+        }
+      },
+      "karts": {
+        "stintsCount": 3,
+        "kartNumbers": [
+          "n/a",
+          "13",
+          "7"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22545,
+        "avgLapMs": 22758,
+        "best3AvgLapMs": 22554,
+        "medianLapMs": 22729,
+        "cleanAvgLapMs": 22869,
+        "gapToBestLapMs": 195
+      },
+      "consistency": {
+        "validLapsCount": 45,
+        "warningLapCount": 2,
+        "value": 98.17
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 0
+      },
+      "pilotScore": {
+        "total": 83.1,
+        "grade": "B",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 88.9,
+          "paceScore": 60.7,
+          "consistencyScore": 98.2,
+          "disciplineScore": 90.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "podium_finish",
+            "warnings_present"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "78b9e51d-7856-4c2b-b4d0-1f3fc3c91001",
+      "identity": {
+        "regNumber": "1",
+        "displayName": {
+          "value": "Мухин Алексей",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 3,
+        "officialLapsCount": 49,
+        "realLapsCount": 49,
+        "officialTotalTimeMs": 1213885,
+        "officialRealTotalTimeMs": 1213885,
+        "timePenaltyMs": 0,
+        "virtualLapDelta": 0,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 832
+        },
+        "gapToLeader": {
+          "laps": 0,
+          "ms": 7065
+        }
+      },
+      "karts": {
+        "stintsCount": 3,
+        "kartNumbers": [
+          "n/a",
+          "14",
+          "5"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22603,
+        "avgLapMs": 22846,
+        "best3AvgLapMs": 22633,
+        "medianLapMs": 22822,
+        "cleanAvgLapMs": 22969,
+        "gapToBestLapMs": 253
+      },
+      "consistency": {
+        "validLapsCount": 46,
+        "warningLapCount": 1,
+        "value": 98.13
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 0
+      },
+      "pilotScore": {
+        "total": 75.2,
+        "grade": "C",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 77.8,
+          "paceScore": 41.8,
+          "consistencyScore": 98.1,
+          "disciplineScore": 93.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "podium_finish",
+            "warnings_present"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "1f7c8821-1e2a-4eea-9adf-56cbab1e2a10",
+      "identity": {
+        "regNumber": "10",
+        "displayName": {
+          "value": "Котенко Евгений",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 4,
+        "officialLapsCount": 49,
+        "realLapsCount": 49,
+        "officialTotalTimeMs": 1216036,
+        "officialRealTotalTimeMs": 1211036,
+        "timePenaltyMs": 5000,
+        "virtualLapDelta": 0,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 2151
+        },
+        "gapToLeader": {
+          "laps": 0,
+          "ms": 9216
+        }
+      },
+      "karts": {
+        "stintsCount": 3,
+        "kartNumbers": [
+          "n/a",
+          "5",
+          "4"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22442,
+        "avgLapMs": 22630,
+        "best3AvgLapMs": 22453,
+        "medianLapMs": 22792,
+        "cleanAvgLapMs": 22897,
+        "gapToBestLapMs": 92
+      },
+      "consistency": {
+        "validLapsCount": 45,
+        "warningLapCount": 2,
+        "value": 97.93
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 1
+      },
+      "pilotScore": {
+        "total": 76.6,
+        "grade": "C",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 66.7,
+          "paceScore": 64.6,
+          "consistencyScore": 97.9,
+          "disciplineScore": 80.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "warnings_present",
+            "penalties_present"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "8453ec5c-8f31-4d4f-8f25-e6e7fd0e3f13",
+      "identity": {
+        "regNumber": "13",
+        "displayName": {
+          "value": "Канюкова София",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 5,
+        "officialLapsCount": 48,
+        "realLapsCount": 48,
+        "officialTotalTimeMs": 1201034,
+        "officialRealTotalTimeMs": 1201034,
+        "timePenaltyMs": 0,
+        "virtualLapDelta": 0,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 7678
+        },
+        "gapToLeader": {
+          "laps": 1,
+          "ms": null
+        }
+      },
+      "karts": {
+        "stintsCount": 3,
+        "kartNumbers": [
+          "n/a",
+          "2",
+          "11"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22737,
+        "avgLapMs": 23497,
+        "best3AvgLapMs": 22743,
+        "medianLapMs": 23010,
+        "cleanAvgLapMs": 23085,
+        "gapToBestLapMs": 387
+      },
+      "consistency": {
+        "validLapsCount": 41,
+        "warningLapCount": 5,
+        "value": 98.87
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 0
+      },
+      "pilotScore": {
+        "total": 59.3,
+        "grade": "D",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 55.6,
+          "paceScore": 14.7,
+          "consistencyScore": 98.9,
+          "disciplineScore": 81.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "warnings_present",
+            "many_warning_laps"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "f8a8d544-1246-4d9f-a332-f4da2a065d14",
+      "identity": {
+        "regNumber": "14",
+        "displayName": {
+          "value": "Журавлев Илья",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 6,
+        "officialLapsCount": 48,
+        "realLapsCount": 48,
+        "officialTotalTimeMs": 1201369,
+        "officialRealTotalTimeMs": 1201369,
+        "timePenaltyMs": 0,
+        "virtualLapDelta": 0,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 335
+        },
+        "gapToLeader": {
+          "laps": 1,
+          "ms": null
+        }
+      },
+      "karts": {
+        "stintsCount": 3,
+        "kartNumbers": [
+          "n/a",
+          "11",
+          "12"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22384,
+        "avgLapMs": 23347,
+        "best3AvgLapMs": 22411,
+        "medianLapMs": 22720,
+        "cleanAvgLapMs": 22920,
+        "gapToBestLapMs": 34
+      },
+      "consistency": {
+        "validLapsCount": 37,
+        "warningLapCount": 8,
+        "value": 97.96
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 0
+      },
+      "pilotScore": {
+        "total": 69.8,
+        "grade": "C",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 44.4,
+          "paceScore": 65.8,
+          "consistencyScore": 98.0,
+          "disciplineScore": 72.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "warnings_present",
+            "many_warning_laps"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "d52ab26b-d6ff-43d1-9d9b-7bb1e80a0e06",
+      "identity": {
+        "regNumber": "6",
+        "displayName": {
+          "value": "Морозов Георгий",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 7,
+        "officialLapsCount": 48,
+        "realLapsCount": 48,
+        "officialTotalTimeMs": 1204770,
+        "officialRealTotalTimeMs": 1204770,
+        "timePenaltyMs": 0,
+        "virtualLapDelta": 0,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 3401
+        },
+        "gapToLeader": {
+          "laps": 1,
+          "ms": null
+        }
+      },
+      "karts": {
+        "stintsCount": 3,
+        "kartNumbers": [
+          "n/a",
+          "8",
+          "14"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22734,
+        "avgLapMs": 23783,
+        "best3AvgLapMs": 22766,
+        "medianLapMs": 23042,
+        "cleanAvgLapMs": 23167,
+        "gapToBestLapMs": 384
+      },
+      "consistency": {
+        "validLapsCount": 40,
+        "warningLapCount": 6,
+        "value": 97.74
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 0
+      },
+      "pilotScore": {
+        "total": 49.4,
+        "grade": "E",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 33.3,
+          "paceScore": 3.1,
+          "consistencyScore": 97.7,
+          "disciplineScore": 78.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "warnings_present",
+            "many_warning_laps"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "a95fa8cb-a8df-404b-92de-5af53fa2ce08",
+      "identity": {
+        "regNumber": "8",
+        "displayName": {
+          "value": "Цыбанов Илья",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "finished",
+        "position": 8,
+        "officialLapsCount": 48,
+        "realLapsCount": 48,
+        "officialTotalTimeMs": 1207703,
+        "officialRealTotalTimeMs": 1202703,
+        "timePenaltyMs": 5000,
+        "virtualLapDelta": 0,
+        "gapToPrevious": {
+          "laps": 0,
+          "ms": 2933
+        },
+        "gapToLeader": {
+          "laps": 1,
+          "ms": null
+        }
+      },
+      "karts": {
+        "stintsCount": 3,
+        "kartNumbers": [
+          "n/a",
+          "10",
+          "3"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22706,
+        "avgLapMs": 22985,
+        "best3AvgLapMs": 22769,
+        "medianLapMs": 23040,
+        "cleanAvgLapMs": 23187,
+        "gapToBestLapMs": 356
+      },
+      "consistency": {
+        "validLapsCount": 44,
+        "warningLapCount": 2,
+        "value": 98.16
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 1
+      },
+      "pilotScore": {
+        "total": 46.9,
+        "grade": "E",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 22.2,
+          "paceScore": 2.4,
+          "consistencyScore": 98.2,
+          "disciplineScore": 80.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "warnings_present",
+            "penalties_present"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "e4698b1d-a8ea-4f89-9d77-f7ebf12a7907",
+      "identity": {
+        "regNumber": "7",
+        "displayName": {
+          "value": "Ленс Иван",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "dsq",
+        "position": 9,
+        "officialLapsCount": null,
+        "realLapsCount": 51,
+        "officialTotalTimeMs": 1217273,
+        "officialRealTotalTimeMs": 1212273,
+        "timePenaltyMs": 5000,
+        "virtualLapDelta": -999,
+        "gapToPrevious": {
+          "laps": null,
+          "ms": null
+        },
+        "gapToLeader": {
+          "laps": null,
+          "ms": null
+        }
+      },
+      "karts": {
+        "stintsCount": 2,
+        "kartNumbers": [
+          "n/a",
+          "6"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22482,
+        "avgLapMs": 22826,
+        "best3AvgLapMs": 22536,
+        "medianLapMs": 22806,
+        "cleanAvgLapMs": 22888,
+        "gapToBestLapMs": 132
+      },
+      "consistency": {
+        "validLapsCount": 47,
+        "warningLapCount": 3,
+        "value": 98.83
+      },
+      "pit": {
+        "pitCount": 1
+      },
+      "incidents": {
+        "warningEventsCount": 0,
+        "penaltyEventsCount": 2
+      },
+      "pilotScore": {
+        "total": 25.0,
+        "grade": "E",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 0.0,
+          "paceScore": 62.8,
+          "consistencyScore": 98.8,
+          "disciplineScore": 46.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "disqualified",
+            "penalties_present"
+          ]
+        }
+      }
+    },
+    {
+      "participantId": "1bcebca4-ec82-4cd0-a1e5-24d80ad4ab12",
+      "identity": {
+        "regNumber": "12",
+        "displayName": {
+          "value": "Румянцев Алексей",
+          "source": "race_participant_name"
+        },
+        "student": {
+          "studentId": null,
+          "name": null,
+          "mappingStatus": "unmapped"
+        }
+      },
+      "classification": {
+        "officialStatus": "dsq",
+        "position": 10,
+        "officialLapsCount": null,
+        "realLapsCount": 50,
+        "officialTotalTimeMs": 1232474,
+        "officialRealTotalTimeMs": 1227474,
+        "timePenaltyMs": 5000,
+        "virtualLapDelta": -999,
+        "gapToPrevious": {
+          "laps": null,
+          "ms": null
+        },
+        "gapToLeader": {
+          "laps": null,
+          "ms": null
+        }
+      },
+      "karts": {
+        "stintsCount": 2,
+        "kartNumbers": [
+          "n/a",
+          "10"
+        ]
+      },
+      "pace": {
+        "bestLapMs": 22350,
+        "avgLapMs": null,
+        "best3AvgLapMs": 22418,
+        "medianLapMs": 22646,
+        "cleanAvgLapMs": 22701,
+        "gapToBestLapMs": 0
+      },
+      "consistency": {
+        "validLapsCount": 41,
+        "warningLapCount": 7,
+        "value": 98.93
+      },
+      "pit": {
+        "pitCount": 2
+      },
+      "incidents": {
+        "warningEventsCount": 1,
+        "penaltyEventsCount": 2
+      },
+      "pilotScore": {
+        "total": 25.0,
+        "grade": "E",
+        "modelId": "pilot_score_v2_balanced",
+        "components": {
+          "resultScore": 0.0,
+          "paceScore": 100.0,
+          "consistencyScore": 98.9,
+          "disciplineScore": 30.0,
+          "sampleQualityScore": 100.0
+        },
+        "explain": {
+          "flags": [
+            "disqualified",
+            "best_clean_pace",
+            "warnings_present",
+            "penalties_present",
+            "many_warning_laps"
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "calculationVersion": "session_overview_v3",
+    "sourceCoverage": {
+      "raceStartDataApi": true,
+      "resultExport": true,
+      "lapByLapExport": true
+    },
+    "consistencyModel": {
+      "id": "consistency_v2_robust_clean_laps",
+      "range": [
+        0,
+        100
+      ],
+      "notes": [
+        "В расчет берутся только clean laps.",
+        "Из расчета исключаются pit laps и аномальные круги.",
+        "Показатель должен оценивать стабильность по чистым боевым кругам, а не штрафовать за сервисные и мусорные круги."
+      ]
+    },
+    "pilotScoreModel": {
+      "id": "pilot_score_v2_balanced",
+      "range": [
+        0,
+        100
+      ],
+      "weights": {
+        "resultScore": 0.25,
+        "paceScore": 0.3,
+        "consistencyScore": 0.2,
+        "disciplineScore": 0.2,
+        "sampleQualityScore": 0.05
+      },
+      "hardRules": {
+        "dsqScoreCap": 25
+      },
+      "notes": [
+        "Result — оценка итогового официального результата в заезде.",
+        "Pace — оценка темпа по clean average и лучшему кругу.",
+        "Consistency — оценка стабильности по clean laps.",
+        "Discipline — штрафуется за warnings, penalties и проблемные круги.",
+        "Sample quality — показывает, достаточно ли валидных кругов для доверия к оценке."
+      ]
+    }
+  }
+}
